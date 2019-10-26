@@ -13,7 +13,7 @@ data:extend(
 
     unit =
     {
-      count = "20",
+      count = "300",
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -36,7 +36,7 @@ data:extend(
 	},	
     unit =
     {
-      count = "100",
+      count = "300",
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -60,7 +60,7 @@ data:extend(
 	},	
     unit =
     {
-      count = "50",
+      count = "500",
       ingredients =
       {
         {"automation-science-pack", 2},
@@ -84,7 +84,7 @@ data:extend(
 	},	
     unit =
     {
-      count = "100",
+      count = "500",
       ingredients =
       {
         {"automation-science-pack", 2},
@@ -109,9 +109,9 @@ data:extend(
 		},
 	},	
     unit =
-    {
-      count = "100",
-      ingredients =
+{
+    count = "500",
+    ingredients =
       {
         {"automation-science-pack", 2},
 		{"logistic-science-pack", 2},
@@ -134,7 +134,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "50",--"100",
+      count = "500",--"100",
       ingredients =
       {
         {"automation-science-pack", 5},
@@ -159,7 +159,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "50",--"100",
+      count = "500",--"100",
       ingredients =
       {
         {"automation-science-pack", 10},
@@ -185,7 +185,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "50",--"100",
+      count = "500",--"100",
       ingredients =
       {
         {"automation-science-pack", 20},
@@ -213,7 +213,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "50",
+      count = "500",
       ingredients =
       {
         {"automation-science-pack", 1},		
@@ -235,7 +235,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "20",
+      count = "500",
       ingredients =
       {
         {"automation-science-pack", 5},	
@@ -258,7 +258,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "1",
+      count = "500",
       ingredients =
       {
         {"automation-science-pack", 200},	
@@ -281,7 +281,7 @@ data:extend(
 		},
 	},	
     unit ={
-      count = "10",
+      count = "300",
       ingredients =
       {
         {"automation-science-pack", 20},	
@@ -307,7 +307,7 @@ data:extend(
     prerequisites = {"chemical-science-pack"},
     unit =
     {
-      count = 30,
+      count = 300,
       ingredients =
       {
         {"automation-science-pack", 4},
@@ -331,7 +331,7 @@ data:extend(
     prerequisites = {"chemical-science-pack"},
     unit =
     {
-      count = 30,
+      count = 300,
       ingredients =
       {
         {"automation-science-pack", 4},
@@ -355,7 +355,7 @@ data:extend(
     prerequisites = {"laser"},
     unit =
     {
-      count = 100,
+      count = 500,
       ingredients =
       {
         {"automation-science-pack", 1},
