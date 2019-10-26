@@ -46,7 +46,7 @@ local function init_globals()
 	global.current_surface = "nauvis"
 	global.surf_to_leave_angry_biters_counter = 0
 	global.warp_charge_time = 10--warp_charge_time_at_start --in seconds
-	global.polution_amount = 1
+	--global.polution_amount = 1
 
 	global.warp_charge_start_tick = 0 
 	global.warp_charging = 0
@@ -330,9 +330,9 @@ function (e)
 					end
 					
 					--*** polution update
-					game.surfaces[global.current_surface].pollute({-1,-1}, global.polution_amount)	
-					
-					global.polution_amount = global.polution_amount * settings.global['warptorio_warp_polution_factor'].value
+					--game.surfaces[global.current_surface].pollute({-1,-1}, global.polution_amount)
+
+					--global.polution_amount = global.polution_amount * settings.global['warptorio_warp_polution_factor'].value
 					local calculate_expansion_cooldown = math.floor(warp_base_expansion_cooldown / game.forces["enemy"].evolution_factor / 100)
 					if calculate_expansion_cooldown > 3600*60 then game.map_settings.enemy_expansion.min_expansion_cooldown = 3600*60-1 else game.map_settings.enemy_expansion.min_expansion_cooldown = calculate_expansion_cooldown end
 					game.map_settings.enemy_expansion.max_expansion_cooldown = game.map_settings.enemy_expansion.min_expansion_cooldown + 1
@@ -363,8 +363,8 @@ function (e)
 							global.warp_stabilizer_accumulator_discharge_count = 3
 						end
 						if stabilize == 1 then
-							game.forces["enemy"].evolution_factor=0	
-							global.polution_amount = 1
+							game.forces["enemy"].evolution_factor=0
+							--global.polution_amount = 1
 							game.surfaces[global.current_surface].clear_pollution()
 							game.surfaces[global.current_surface].set_multi_command{command={type=defines.command.flee, from=global.warp_reactor}, unit_count=1000, unit_search_distance=500}
 							surface_play_sound("reactor-stabilized", global.current_surface)	
@@ -1013,8 +1013,8 @@ function warp_out()
 	
 	--stuff to reset
 	global.surf_to_leave_angry_biters_counter = 0
-		game.forces["enemy"].evolution_factor=0	
-	global.polution_amount = 1
+		game.forces["enemy"].evolution_factor=0
+	--global.polution_amount = 1
 	global.warp_stabilizer_accumulator_discharge_count = 0
 
 	--rebuild teleporter to new surface
