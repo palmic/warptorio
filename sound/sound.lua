@@ -19,12 +19,12 @@ data:extend(
   {
     type = "sound",
     name = "reactor-stabilized",
-	filename = "__warptorio__/sound/reactor_stabilized.ogg"
+	filename = "__warptorio-palmic__/sound/reactor_stabilized.ogg"
   },  
   {
     type = "sound",
     name = "teleport",
-	filename = "__warptorio__/sound/teleport.ogg"
+	filename = "__warptorio-palmic__/sound/teleport.ogg"
   },   
   {
     type = "sound",
