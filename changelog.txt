@@ -1,0 +1,96 @@
+v0.2.1
+- Fixed ground to underground belt logistic would not work after a warp.
+
+v0.2.0
+- Fixed steam temperatures not transfering between the gates. 
+
+v0.1.9
+- Fixed a bug with loaders having a wrong orientation.
+- Made the warp beacon easier to get and more powerful.
+
+v0.1.8
+- Fixed bugs related to the warp reactor stabiliser.
+- Further reduced default biters attack strengthening.
+- Changed the teleporter's logistic to transfert to the platform on both lanes.
+- Balanced platform researchs to be easier on the tech tree.
+
+v0.1.7
+- Fixed a bug that crashed the mod after the warping with the warp accelerator accumulator.
+- Added back some warp charge time added based on number of previous warp.
+- Added Warp energy upgrade.
+
+v0.1.6
+- Fixed a bug that broke underground after warping.
+
+v0.1.5
+- Fixed a bug from the last version crashing the mod after clicking the warp button.
+
+v0.1.4
+- Changed warp charge time formula, now based on number of entities present on the platforms.
+- Player should not be cloned anymore after warping if he is using characters mods.
+
+v0.1.3
+- Added the warp beacon upgrade.
+- Added the warp reactor accelerator accumulator upgrade.
+- Added biters scatering when the warp stabilisator activate.
+- Fixed that upgraded logistic pipes were not transmiting fluids.
+- Fixed a bug introduced in the previous version that broke underground and teleporter after warping.
+- Fixed a bug that crashed the mod after a warp if warp logistic was upgraded past 1.
+- Fixed more bugs related to logistic upgrading.
+
+v0.1.2
+- Cleaned the data file a bit.
+- Added warp logistic 2 and 3 upgrade.
+- Fixed a bug that could teleport the player out of the map in the underground platform.
+
+v0.1.1
+- Changed warp reactor logistic research incorrectly requiring production science to logistic science, again..
+- Reduced biters strengthening over time a bit.
+- Added time spent on a planet on the gui.
+- Researching warp reactor logistic before warp teleporter won't spawn the teleporter.
+
+v0.1.0
+- Added electrical cost to moving items through the warp teleporter.
+- Added warp reactor undergound platforms.
+- Added new upgrade area researchs for underground platforms.
+- Changed warp reactor logistic research incorrectly requiring production science to logistic science.
+
+v0.0.9
+- Made the teleporter mobile gate rebuild itself after a warp if not placed somewhere already.
+- Added the warp reactor logistic system.
+
+v0.0.8
+- Made the mod compatible with Factorio version > 0.17.34, but imcompatible now with version < 0.17.35
+- Fixed platform upgrades price.
+- Fixed unused surfaces not deleted.
+
+v0.0.7
+- Fixed custom sounds playing as ambient music.
+- Fixed platform's borders incorrectly redrawn after a warp.
+- Added teleporter upgrade.
+- Changed warp reactor's health to 5000.
+
+v0.0.6
+- Added that a player needs to be on the platform when warping or he will be left behind.
+- Fixed additionnal players could not warp in multiplayer. (still untested)
+- Fixed a bug where platforms upgrade would not be saved correctly.
+
+v0.0.5
+- Fixed a bug pertaining to biters not attacking with the pollution cloud.
+
+v0.0.4
+- Added more descriptions.
+- Added platform area upgrades.
+- Added warp stabiliser accumulator and it's upgrades.
+- Made warp structures unminable.
+- Minor balancing.
+
+v0.0.3
+- Added change log.
+- Changed version from 0.17.34 to 0.17 so the mod appears in the list.
+
+v0.0.2
+- Added multiplayer support (untested, probably don't work).
+
+v0.0.1
+- Initial release.
