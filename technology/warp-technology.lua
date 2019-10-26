@@ -2,37 +2,6 @@ data:extend(
 {
     {
     type = "technology",
-    name = "warp-mining-productivity",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/mining-productivity.png",
-	icons= {
-		{
-		  icon = "__base__/graphics/technology/mining-productivity.png",
-		  tint={r = 0.2, g = 0.2, b = 1, a = 0.8}
-		},
-	},	 
-    effects =
-    {
-      {
-        type = "mining-drill-productivity-bonus",
-        modifier = 0.1
-      }
-    },
-    unit =
-    {
-      count_formula = "10*L",
-      ingredients =
-      {
-        {"automation-science-pack", 1},
-      },
-      time = 30
-    },
-    max_level = "infinite",
-    upgrade = true,
-    order = "c-k-f-e"
-  },
-    {
-    type = "technology",
     name = "warp-platform-size-1",
     icon_size = 128,
 	icons= {
