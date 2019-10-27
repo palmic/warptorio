@@ -239,24 +239,24 @@ script.on_event(defines.events.on_player_created, function(event)
 		global.warp_reactor.minable = false
 		
 		--This is to attract biters when no buildings emit pollution
-		local dummy = game.surfaces["nauvis"].create_entity{name = "dummy", position = {-1,-1}, force = game.forces.player}
-		dummy.minable = false
+		-- local dummy = game.surfaces["nauvis"].create_entity{name = "dummy", position = {-1,-1}, force = game.forces.player}
+		-- dummy.minable = false
 		--dummy.destructible = false
-		local dummy_inv = dummy.get_inventory(defines.inventory.fuel)
-		dummy_inv.insert({name="coal"})
+		-- local dummy_inv = dummy.get_inventory(defines.inventory.fuel)
+		-- dummy_inv.insert({name="coal"})
 		
 		--global.warp_teleporter_exit.destructible = false
 		
-		game.map_settings.pollution.diffusion_ratio = 0.1
-		game.map_settings.pollution.pollution_factor = 0.0000001
-		
-		game.map_settings.pollution.min_to_diffuse=15
-		game.map_settings.unit_group.min_group_gathering_time = 600
-		game.map_settings.unit_group.max_group_gathering_time = 2 * 600
-		game.map_settings.unit_group.max_unit_group_size = 200
-		game.map_settings.unit_group.max_wait_time_for_late_members = 2 * 360
-		game.map_settings.unit_group.settler_group_min_size = 1
-		game.map_settings.unit_group.settler_group_max_size = 1				
+		-- game.map_settings.pollution.diffusion_ratio = 0.1
+		-- game.map_settings.pollution.pollution_factor = 0.0000001
+
+		-- game.map_settings.pollution.min_to_diffuse=15
+		-- game.map_settings.unit_group.min_group_gathering_time = 600
+		-- game.map_settings.unit_group.max_group_gathering_time = 2 * 600
+		-- game.map_settings.unit_group.max_unit_group_size = 200
+		-- game.map_settings.unit_group.max_wait_time_for_late_members = 2 * 360
+		-- game.map_settings.unit_group.settler_group_min_size = 1
+		-- game.map_settings.unit_group.settler_group_max_size = 1
 	end
 	
 	--local player_pos = game.surfaces[global.current_surface].find_non_colliding_position("character", {0,-5}, 0, 1, 1)
@@ -334,8 +334,8 @@ function (e)
 
 					--global.polution_amount = global.polution_amount * settings.global['warptorio_warp_polution_factor'].value
 					local calculate_expansion_cooldown = math.floor(warp_base_expansion_cooldown / game.forces["enemy"].evolution_factor / 100)
-					if calculate_expansion_cooldown > 3600*60 then game.map_settings.enemy_expansion.min_expansion_cooldown = 3600*60-1 else game.map_settings.enemy_expansion.min_expansion_cooldown = calculate_expansion_cooldown end
-					game.map_settings.enemy_expansion.max_expansion_cooldown = game.map_settings.enemy_expansion.min_expansion_cooldown + 1
+					-- if calculate_expansion_cooldown > 3600*60 then game.map_settings.enemy_expansion.min_expansion_cooldown = 3600*60-1 else game.map_settings.enemy_expansion.min_expansion_cooldown = calculate_expansion_cooldown end
+					-- game.map_settings.enemy_expansion.max_expansion_cooldown = game.map_settings.enemy_expansion.min_expansion_cooldown + 1
 					
 					--*** play alarm or not update
 					if global.warp_charging == 1 then 
